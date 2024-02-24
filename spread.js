@@ -9,8 +9,8 @@ const friends = [4, 5, 87, 9];
 const bondhu = friends;
 const dosto = [...friends] // copy
 console.log(dosto)
+console.log(bondhu)
 friends.push(100)
-console.log(dosto)
 console.log(friends)
 
 // advanced 
